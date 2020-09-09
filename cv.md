@@ -6,4 +6,4 @@
 4. Skills - HTML, CSS, JavaScript, SASS, Bootstrap, Git, Webpack, Linux 
 5. U can find some code in my repos.. if U wish
 6. Education - freecodecamp.org, stepick.org, learn.javascript.ru
-7. English - some sites my level as B1, another - A2+
+7. English - some sites rate my level as B1, another - A2+
