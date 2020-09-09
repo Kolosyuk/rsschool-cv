@@ -1,0 +1,52 @@
+.body {
+  background: #d1d1d1;
+}
+
+.container {
+  max-width: 1024px;
+  height: 100vh;
+  background: #e1e1e1;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 2;
+}
+
+.avatar {
+  width: 15%;
+  align-self: flex-start;
+  margin-top: 7rem;
+}
+
+.avatar__img {
+  width: 100%;
+}
+
+.content__body {
+  font-family: 'Kufam', cursive;
+  padding: 1em;
+  flex: 1 1 75%;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.content__title {
+  text-align: center;
+}
+
+.list__item {
+  font-size: 1.5rem;
+}
+
+.footer {
+  flex-grow: 0;
+}
+
