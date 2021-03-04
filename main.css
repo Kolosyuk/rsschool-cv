@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .body {
   background: #d1d1d1;
 }
@@ -7,31 +12,29 @@
   height: 100vh;
   background: #e1e1e1;
   margin: 0 auto;
-  padding: 1em;
+  padding: 0 1em;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 .main {
   display: flex;
-  justify-content: space-between;
+  align-items: stretch;
+  justify-content: space-evenly;
   flex-grow: 2;
+  padding: 3em 1em 1em;
 }
 
 .avatar {
-  width: 15%;
-  align-self: flex-start;
-  margin-top: 7rem;
+  width: 25%;
 }
 
 .avatar__img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .content__body {
   font-family: 'Kufam', cursive;
-  padding: 1em;
-  flex: 1 1 75%;
+  max-width: 60%;
 }
 
 .title {
@@ -46,7 +49,105 @@
   font-size: 1.5rem;
 }
 
-.footer {
-  flex-grow: 0;
+.code{
+  background: #f7f2f2;
+  font-family: monospace;
+  font-size: 0.8em;
+  font-weight: normal;
+  font-style: italic;
 }
 
+.footer {
+  background: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.25em 1em;
+}
+
+.footer__logo {
+  width: 25%;
+  max-width: 180px;
+}
+
+/* classes for RSSchool logo from https://rs.school/images/rs_school_js.svg */ 
+svg:root {
+  width: 100%;
+}
+
+.st0 {
+  fill: #fff;
+}
+
+.st1 {
+  clip-path: url(#SVGID_2_);
+}
+
+.st2 {
+  clip-path: url(#SVGID_4_);
+}
+
+.st3 {
+  clip-path: url(#SVGID_6_);
+}
+
+.st4 {
+  clip-path: url(#SVGID_8_);
+}
+
+.st5 {
+  fill: #fff;
+  stroke: #fff;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.st6 {
+  clip-path: url(#SVGID_8_);
+}
+
+.st6,.st7 {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.st8,.st9 {
+  clip-path: url(#SVGID_10_);
+}
+
+.st9 {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.footer__contacts {
+  width: 30%;
+  max-width:  300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__gits {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;  
+}
+
+.github{
+  width: 20%;
+  min-width: 60px;
+}
+
+.gitlab{
+  width: 7%;
+  min-width: 30px;
+}
+
+.github img, .gitlab img {
+  max-width: 100%;
+}
